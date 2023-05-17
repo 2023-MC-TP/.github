@@ -1,12 +1,13 @@
-## Hi there 👋
+#2023-MC_Team Project
 
-<!--
+------------
+git 사용법
+제일 먼저 repository clone하기: git clone URL_address
 
-**Here are some ideas to get you started:**
+수정하기 전에..
+git pull (다른 사람이 수정한 사항 불러오기)
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+수정하고 나서..
+git add . (수정한 사항 깃으로 보내기)
+git commit -m "commit message" (커밋 메세지 입력)
+git push (수정한 사항과 커밋 메세지 깃 레포지토리에 전송, 이 과정 후에 git pull로 다른 사람이 보기 가능)
